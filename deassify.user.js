@@ -1,13 +1,15 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         deassify
 // @namespace    http://tampermonkey.net/
 // @version      2024-11-04
-// @description  try to take over the world!
+// @description  make pwn.college not ass ugly
 // @author       Sreehari Sreedev
 // @match        https://pwn.college/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pwn.college
 // @grant        none
-// @copyright    GPL-3.0-only
+// @license      GPL-3.0-only
+// @downloadURL https://update.greasyfork.org/scripts/515698/deassify.user.js
+// @updateURL https://update.greasyfork.org/scripts/515698/deassify.meta.js
 // ==/UserScript==
 // SPDX-License-Identifier: GPL-3.0-only
 
@@ -55,3 +57,4 @@ a:hover {
     style.appendChild(document.createTextNode(stylesheet));
     document.head.appendChild(style);
 })();
+
