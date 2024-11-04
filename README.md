@@ -1,5 +1,6 @@
 # deassify
 make pwn.college not fucking ass ugly 💀
+![screenshot of pwn.college](./pwn.college.png)
 
 ## installation
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
