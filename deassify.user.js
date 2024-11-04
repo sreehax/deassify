@@ -27,7 +27,7 @@ body {
     color: #80d8e0 !important;
 }
 .navbar-brand, .nav-link, body, p, h1, h2, h3, h4, td {
-    font-family: "BlexMono Nerd Font", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
+    font-family: "IBM Plex Mono", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
 }
 nav {
     border-bottom: 1px solid #80d8e0;
