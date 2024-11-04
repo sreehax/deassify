@@ -56,5 +56,16 @@ a:hover {
     style.type = "text/css";
     style.appendChild(document.createTextNode(stylesheet));
     document.head.appendChild(style);
+    if (window.location.pathname == "/settings") {
+        var sidelinks = document.querySelector(".nav,.flex-column,.nav-pills");
+        var deassify_settings_link = createElem("a", {"id": "settings-deassify-tab", "class": "nav-link", "data-toggle": "pill", "href": "#deassify", "role": "tab"});
+        deassify_settings_link.appendChild(document.createTextNode("Deassify"));
+        sidelinks.appendChild(deassify_settings_link);
+        
+        var settings_body = document.querySelector("#v-pills-tabContent");
+        var new_settings_page = createElem("div", {"id": "deassify", "class": "tab-fane fade", "role": "tabpanel"});
+        new_settings_page.appendChild(document.createTextNode("hey lol"));
+        settings_body.appendChild(new_settings_page);
+    }
 })();
 
